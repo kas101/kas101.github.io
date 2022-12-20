@@ -30,6 +30,9 @@
                   <a class="nav-link display-5 h3 text-light"href="#">Orders</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link display-5 h3 text-light" href="./stock.html"  id="stock">Stock</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link display-5 h3 text-light"href="./index.html">Logout</a>
                   </li>
             </ul>
@@ -38,7 +41,7 @@
           </nav>
 <h4 class="diplay-5 mt-3">Create an Individual Product</h4>
         <!--Form for Product details-->
-    <form id='products'class="col mt-3" enctype="multipart/form-data">
+    <div id='products'class="col mt-3">
       <div class="col-md-6">
         <label  for="product-name" class="form-label diplay-6">Product Name</label>
         <input type="text" class="form-control" name="product-name" id="product-name">
@@ -55,9 +58,9 @@
         <label for="image" class="form-label diplay-6">Image</label>
         <input type="file"  name="image" class="form-control" id="image">
       </div>
-      <button class="btn btn-lg btn-primary mt-2" id="product" type="submit">Submit</button>
-    </form>
-    <script type="module" src="./components/modules/db.mjs"></script>
+      <button class="btn btn-lg btn-primary mt-2" id="product">Submit</button>
+    </div>
+    <script type="module" src="./components/modules/product.mjs"></script>
           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
